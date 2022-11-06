@@ -17,5 +17,5 @@
 - OSINT
 - Linux
 
-> **[CTF Knowledge](https://github.com/Sriraj151/CTF-Practice-and-Training) **
+> **[CTF Knowledge](https://github.com/Sriraj151/CTF-Practice-and-Training)**
 
