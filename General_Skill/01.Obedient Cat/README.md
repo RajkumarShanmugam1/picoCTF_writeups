@@ -1,6 +1,6 @@
 # Obedient Cat
 
-## Description
+### Description
 - This file has a flag in plain sight (aka "in-the-clear"). 
 - Author: syreal
 - Tags  : picoCTF2021 , General skills
