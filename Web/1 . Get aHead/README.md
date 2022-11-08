@@ -8,7 +8,9 @@
 
 I guess to request  head protocol . So i can do ways .
 
-<ins>Way - 1</ins> :
+# Ways are updated Later soon ...
+
+<!--ins>Way - 1</ins> :
 - Checking out [Burp Suite](), one of it's main abilities it to intercept and modify requests.
 
 <ins>Way - 2</ins> :
@@ -17,5 +19,4 @@ I guess to request  head protocol . So i can do ways .
 
 -It makes sense, as we figured earlier that Burp Suite can intercept and change requests. Looking through the list, we see that the second request method is "HEAD" which seems quite familiar. If we look back at the challenge title "Get aHead", the word Head stands out, probably referring to the HTTP Request method "HEAD".
 
-After opening up the app (it download as an app), choose the "request" option and create a folder. Feel free to name it whatever you like. From there, insert the website link into the "Enter request url" bar, change the method to "HEAD" and then click send. Now, don't forget to click into the "Headers" tab below, to find the flag! 
-
+After opening up the app (it download as an app), choose the "request" option and create a folder. Feel free to name it whatever you like. From there, insert the website link into the "Enter request url" bar, change the method to "HEAD" and then click send. Now, don't forget to click into the "Headers" tab below, to find the flag! -->
