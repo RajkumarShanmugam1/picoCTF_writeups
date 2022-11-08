@@ -1,12 +1,10 @@
 # Cookies
 
 ## Description
-- 
-
-Find the flag being held on this server to get ahead of the competition http://mercury.picoctf.net:21939/
+- Who doesn't love cookies? Try to figure out the best one. http://mercury.picoctf.net:17781/
 - Author: syreal
 - Tags  : picoCTF2021 , WebExploit
-- Source: [URL](http://mercury.picoctf.net:21939/)
+- Source: [URL](http://mercury.picoctf.net:17781/)
 
 <ins>Step - 1</ins> :
 - Checking out Burp Suite, one of it's main abilities it to intercept and modify requests. Burp Suite
