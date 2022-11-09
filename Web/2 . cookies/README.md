@@ -14,7 +14,7 @@
   
 <ins>Step - 2<ins>:
   - Inspect the web page and Go to the Storage option.
-      - Shortcut : ```sh
+      - Shortcut : ```
                    Ctrl + Shift + I
                    ```
  
