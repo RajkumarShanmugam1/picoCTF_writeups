@@ -17,3 +17,4 @@ I guess this is encode format . Like ` ISCII , UIF ` . So i try to decode the me
 
 <ins> Way - 2 <ins>:
 - I try to decode in the of python code , Which available in this folder .
+![image](https://user-images.githubusercontent.com/76644058/201020039-af3127a2-1a12-47ca-94ce-bd8871c9fd9b.png)
