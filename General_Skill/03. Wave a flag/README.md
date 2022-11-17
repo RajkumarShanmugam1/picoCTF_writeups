@@ -7,7 +7,7 @@
 - Source: flag
 
 
-<ins>Step - 1</ins> :
+<!-- ins>Step - 1</ins> :
 - DOwnload The source file
 
 <ins>Step - 2</ins>:
