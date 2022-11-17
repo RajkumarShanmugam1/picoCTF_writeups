@@ -6,7 +6,7 @@
 - Tags  : picoCTF2021 , General skills
 - Source: flag
 
-<!--
+
 <ins>Step - 1</ins> :
 - DOwnload The source file
 
