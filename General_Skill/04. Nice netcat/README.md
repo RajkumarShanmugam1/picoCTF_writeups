@@ -4,7 +4,7 @@
 - There is a nice program that you can talk to by using this command in a shell: $ nc mercury.picoctf.net 43239, but it doesn't speak English...
 - Author: syreal
 - Tags  : picoCTF2021 , General skills
-- Source: flag
+- Source: link
 
 <ins>Step - 1</ins> :
 - First I connected to `mercury.picoctf.net 43239` on a Linux terminal.
