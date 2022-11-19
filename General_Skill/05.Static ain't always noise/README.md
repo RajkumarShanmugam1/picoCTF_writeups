@@ -7,6 +7,7 @@
 - Source: ltdis.sh , static
 
 I guess this is shell scripting. so i can view and run the static els files
+
 <ins>Way - 1</ins> :
 - Download The source file
 - Run the static executable file using ltdis.sh
