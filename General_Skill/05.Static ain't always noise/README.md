@@ -6,17 +6,29 @@
 - Tags  : picoCTF2021 , General skills
 - Source: ltdis.sh , static
 
-<ins>Step - 1</ins> :
-- DOwnload The source file
-- First check File Type
-   ```sh
-   file flag
-   ```
-   > flag: ASCII text
+I guess this is shell scripting. so i can view and run the static els files
+<ins>Way - 1</ins> :
+- Download The source file
+- Run the static executable file using ltdis.sh
+```sh
+chmod +x ltdis.sh
+./ltdis.sh static
+```
+- The Result is : (static.ltdis.txt named file is created)
+> Attempting disassembly of static ...
+> Disassembly successful! Available at: static.ltdis.x86_64.txt
+> Ripping strings from binary with file offsets...
+> Any strings found in static have been written to static.ltdis.strings.txt with file offset
 
-<ins>Step - 2</ins>:
-- open file or show content of file 
-   ```sh
-   cat flag
-   ```
-- Finally i got the flag `picoCTF{****}`
+- After view the content of file When i got the flag .
+```sh
+cat static.ltdis.strings.txt | grep "pico"
+```
+
+<ins>Way - 2</ins>:
+- view the executable file (static) content
+```sh
+cat static.ltdis.strings.txt | grep "pico"
+```
+
+> Finally i got the flag `picoCTF{****}`
