@@ -15,10 +15,12 @@ chmod +x ltdis.sh
 ./ltdis.sh static
 ```
 - The Result is : (static.ltdis.txt named file is created)
-> Attempting disassembly of static ...
-> Disassembly successful! Available at: static.ltdis.x86_64.txt
-> Ripping strings from binary with file offsets...
-> Any strings found in static have been written to static.ltdis.strings.txt with file offset
+```
+ Attempting disassembly of static ...
+ Disassembly successful! Available at: static.ltdis.x86_64.txt
+ Ripping strings from binary with file offsets...
+ Any strings found in static have been written to static.ltdis.strings.txt with file offset
+```
 
 - After view the content of file When i got the flag .
 ```sh
