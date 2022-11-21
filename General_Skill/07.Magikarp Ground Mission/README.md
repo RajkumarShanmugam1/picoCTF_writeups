@@ -13,35 +13,27 @@ Hmm start by connecting to the server with `ssh ctf-player@venus.picoctf.net -p 
 
 - Using `ls` lists `1of3.flag.txt  instructions-to-2of3.txt`
 - With `cat 1of3.flag.txt`, we get
-  ```text
-     picoCTF{xxsh_
-  ```
+  ```picoCTF{xxsh_```
 
 <ins>Step - 2</ins>:
 - ```sh
    cat instructions-to-2of3.txt
    ```
-   ```text
-      Next, go to the root of all things, more succinctly `/`
-   ```
+   ```Next, go to the root of all things, more succinctly `/````
 
 <ins>Step - 3</ins>:
 - SO i typed in `cd ..` (go back a directory) then `ls -a` (list all because I have trust issues with hidden files) and came across `3of3.flag.txt`
   ```sh
   cat 3of3.flag.txt
   ```
-  ```text
-    5190b070}
-  ```
+  ```5190b070}```
 
 <ins>Step - 4</ins>:
 - I kept going back (with `cd ..`) and listing the files and directories (`ls -a`) until `2of3.flag.txt` appeared.
-- ```sh
+  ```sh
   cat 2of3.flag.txt
   ```
-  ```text
-    0ut_0f_\/\/4t3r_
-  ```
+  ```0ut_0f_\/\/4t3r_```
 
 <ins>Step - 5</ins>:
 - Connected this parts of flag 
