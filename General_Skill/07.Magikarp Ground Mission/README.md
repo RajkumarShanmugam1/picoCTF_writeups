@@ -7,11 +7,11 @@
 - Source: None
 
 
-- Hmm start by connecting to the server with `ssh ctf-player@venus.picoctf.net -p 50713` and `6d448c9c` as the password like the question says.
+Hmm start by connecting to the server with `ssh ctf-player@venus.picoctf.net -p 50713` and `6d448c9c` as the password like the question says.
 
-- Using `ls` lists `1of3.flag.txt  instructions-to-2of3.txt`
-
-- With `cat 1of3.flag.txt`, we get
+<ins>Step - 1</ins>
+Using `ls` lists `1of3.flag.txt  instructions-to-2of3.txt`
+With `cat 1of3.flag.txt`, we get
 
 ```text
 picoCTF{xxsh_
