@@ -10,13 +10,7 @@
 - I opened [shark1.pcapng](./shark1.pcapng) with [Wireshark](https://www.wireshark.org/).
 - I followed the TCP stream:
 
-<ins>Step - 2</ins>:
-- Show the metadata of the file using exiftool
-   ```sh
-   sudo apt-get install exiftool
-   
-   exiftool cat.jpg
-   ```
+![image](https://user-images.githubusercontent.com/76644058/204103255-52607aa9-a21a-49c5-8921-e9303c32e19d.png)
 
 <ins>Step - 3</ins>:
 - Stream 5 (`tcp.stream eq 5`) contained something that looked promising
