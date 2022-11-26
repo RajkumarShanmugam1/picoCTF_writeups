@@ -10,7 +10,7 @@ We found this [file](./tunn3l_v1s10n). Recover the flag.
 
 Updated Later ...
 
-<!--ins>approch</ins>
+<ins>approch</ins>
 - There's no [file extension](https://en.wikipedia.org/wiki/Filename_extension) so we don't actually know what type of file it is.
 - Let's open this with a [hex editor](https://en.wikipedia.org/wiki/Hex_editor) like [HxD](https://mh-nexus.de/en/hxd/) to check the intended file type. - - The first two characters are `BM` which indicates a [BMP file](https://fileinfo.com/extension/bmp).
 
@@ -22,5 +22,3 @@ No flag hmmm. Something interesting to note is the size of the BMP file. It's ab
 
 Height for a BMP file is at [offset](http://www.novell.com/documentation/ndsv8/usnds/c1help/novell_common/hexeditor.html) 0016h. I changed offset 0017h from 0x01 to 0x03.
 
-Open in [ImageMagick](https://imagemagick.org/index.php):
---!>
