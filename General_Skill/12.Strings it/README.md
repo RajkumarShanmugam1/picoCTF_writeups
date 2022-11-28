@@ -11,8 +11,10 @@ For my Guess is `strings` exercise . String is a comment to view the content of 
 - First Download [source](./strings)
 - comments :
   ```
-  [chmod] +x strings
-  [strings] strings | grep "pico"
+  chmod +x strings
+  strings strings | grep "pico"
   ```
-  
+  - `chmod` is used for change the mode of file that means access of the file .
+  - `stirngs` is used display or view the content of file ,Like `cat` comment
+
 - Finally i got the flag `picoCTF{Your_Ouput}`
