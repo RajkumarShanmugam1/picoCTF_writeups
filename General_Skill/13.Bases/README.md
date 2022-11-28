@@ -15,6 +15,8 @@
     ```sh
     echo "bDNhcm5fdGgzX3IwcDM1" | base64 --decode
     ```
+    - `echo` is used display content in Linux mode .
+    - `base64` is used to encode and decode the message / content .
     
 - ( OR )
 - But this is `bDNhcm5fdGgzX3IwcDM1` using [RapidTales](https://www.base64decode.org/) to NOrmal text .
