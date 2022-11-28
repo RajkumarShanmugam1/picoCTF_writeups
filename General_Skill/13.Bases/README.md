@@ -1,16 +1,22 @@
-# Warmed Up
+# Bases
 
 ## Description
-- What is 0x3D (base 16) in decimal (base 10)?
+- What does this `bDNhcm5fdGgzX3IwcDM1` mean? I think it has something to do with bases.
 - Author: Sanjay C/Danny Tunitis
 - Tags  : picoCTF2021 , General skills
-- Source: `0x3D`
+- Source: `bDNhcm5fdGgzX3IwcDM1`
 
 <ins>Approach</ins> :
-- source is `0x3D`
-- Convert the ascii value to normal text.
-- But this is `0x70` octal-number using [RapidTales](https://www.rapidtables.com/convert/number/hex-to-decimal.html) convert to desimal number.
+- source is `bDNhcm5fdGgzX3IwcDM1` . I think this is the base encoded string.
+- So decode the string using base decode.
+- Convert the base64 value to normal text.
 
-[!image](https://cybercrack.net/wp-content/uploads/2019/10/asciitable.png)
+- command:
+    ```sh
+    echo "bDNhcm5fdGgzX3IwcDM1" | base64 --decode
+    ```
+    
+- ( OR )
+- But this is `bDNhcm5fdGgzX3IwcDM1` using [RapidTales](https://www.base64decode.org/) to NOrmal text .
 
 - Finally i got the flag `picoCTF{Your_Ouput}`
