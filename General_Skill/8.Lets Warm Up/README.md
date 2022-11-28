@@ -11,6 +11,6 @@
 - Convert the ascii value to normal text.
 - But this is `0x70` octal-number using [RapidTales](https://www.rapidtables.com/convert/number/hex-to-ascii.html) to convert
 
-[!image](https://cybercrack.net/wp-content/uploads/2019/10/asciitable.png)
+![!image](https://cybercrack.net/wp-content/uploads/2019/10/asciitable.png)
 
 - Finally i got the flag `picoCTF{Your_Ouput}`
