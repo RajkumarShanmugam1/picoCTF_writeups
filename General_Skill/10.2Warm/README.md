@@ -9,7 +9,7 @@
 <ins>Approach</ins> :
 - source is `42`
 - Convert the Decimal number to binary number .
-- But this is `43` octal-number using [RapidTales](https://www.rapidtables.com/convert/number/decimal-to-binary.html) convert to desimal number.
+- But this is `42` octal-number using [RapidTales](https://www.rapidtables.com/convert/number/decimal-to-binary.html) convert to desimal number.
 
 [!image](https://cybercrack.net/wp-content/uploads/2019/10/asciitable.png)
 
