@@ -19,6 +19,6 @@
     
        ` If 91 is in decimal base, what is it in binary base?
        Answer: 1011011
-       That is correct! Here's your flag: picoCTF{4ll_y0ur_b4535_722f6b39}`
+       That is correct! Here's your flag: xxxxxxx `
        
 - Finally i got the flag `picoCTF{Your_Ouput}`
