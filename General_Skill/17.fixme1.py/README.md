@@ -16,6 +16,7 @@
     python3 fixme1.py
     ```
     Result:
+    
       ```
       File "fixme1.py", line 20
        print('That is correct! Here\'s your flag: ' + flag)
@@ -31,7 +32,8 @@
     Result:
        
        ```
-       That is correct! Here's your flag: xxxxx```
+       That is correct! Here's your flag: xxxxx
+       ```
 
 
 - Finally i got the flag `picoCTF{Your_Ouput}`
