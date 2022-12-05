@@ -29,8 +29,7 @@ SyntaxError: invalid syntax
     ```
     Result:
        
-       ```
-       That is correct! Here's your flag: xxxxx```
+       ```That is correct! Here's your flag: xxxxx```
 
 
 - Finally i got the flag `picoCTF{Your_Ouput}`
