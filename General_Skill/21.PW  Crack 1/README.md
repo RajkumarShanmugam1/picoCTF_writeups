@@ -14,5 +14,6 @@
    ```
 - The program needed for password , So i check the python file full.
 - Line number 19 of the python file have the password.
+- Finally i got the flag `picoCTF{Your_Ouput
 
-- Finally i got the flag `picoCTF{Your_Ouput}`
+![image](https://user-images.githubusercontent.com/76644058/207778132-9afde321-7004-4dcb-8fa2-218ff3db0dd9.png)
