@@ -16,3 +16,4 @@
 - Line number 18 of the python file have the password.
 - But which is ascii number . When i convert the normal using python3
 - Finally i got the flag `picoCTF{Your_Ouput}`
+![image](https://user-images.githubusercontent.com/76644058/207781607-32ed9c1a-b9dd-4994-872c-0baea08448be.png)
