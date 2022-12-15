@@ -15,3 +15,5 @@
 - The program needed for password , So i check the python file full.
 - In the last line of the python program have a 8 ties of passwords.Try all passwords.
 - Finally i got the flag `picoCTF{Your_Ouput}`
+
+![image](https://user-images.githubusercontent.com/76644058/207778707-b3a7ef77-f1b1-416e-b899-b68f5828e243.png)
