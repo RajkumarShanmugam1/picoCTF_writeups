@@ -18,4 +18,4 @@
 	- Which command is used to show all file include hidden files.
 - Finally the flag is finded.
 
-
+![image](https://user-images.githubusercontent.com/76644058/208082863-d2ac0378-df35-4b0e-92b0-d83b270a90b2.png)
