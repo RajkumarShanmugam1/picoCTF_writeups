@@ -11,9 +11,10 @@ This is also inspector , So i think inspect all pages and source of this website
 <ins>Step - 1</ins> :
 - Visiting the website, we right click and choose to view source code, getting the first third of the flag, included as a html comment:
   [Result](view-source:http://mercury.picoctf.net:39491/)
-![image](https://user-images.githubusercontent.com/76644058/200843200-7c2393fb-e43f-4c13-818a-27964457dbbb.png)
 - When i got the 1st part of flag in the 31 th line on [Source Page](./index.html)
    - `<!-- Here's the first part of the flag: picoCTF{t -->`
+ 
+ ![image](https://user-images.githubusercontent.com/76644058/200843200-7c2393fb-e43f-4c13-818a-27964457dbbb.png)
   
 <ins>Step - 2</ins> :
 - Then Inspect the site ` Ctrl + Shift + I ` and Click on the style editor
