@@ -6,7 +6,7 @@
 - Tags  : picoCTF2021 , WebExploit
 - Source: [URL](http://mercury.picoctf.net:39491/)
 
-This is also inspector , So i think inspect all pages and source of this website.Source attached from picoCTF
+This is also inspector concept , So i think inspect all pages and source of this website.Source attached from picoCTF
 
 <ins>Step - 1</ins> :
 - Visiting the website, we right click and choose to view source code, getting the first third of the flag, included as a html comment:
