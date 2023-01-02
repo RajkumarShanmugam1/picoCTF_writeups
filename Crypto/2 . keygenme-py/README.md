@@ -58,4 +58,6 @@ key_full_template_trial = key_part_static1_trial + key_part_dynamic1_trial + key
         if key[i] != hashlib.sha256(username_trial).hexdigest()[8]:
             return False
 ```
--The hexdigest in order of `[4,5,3,6,2,7,1,8]` which is digest and add cender part of key
+- The hexdigest in order of `[4,5,3,6,2,7,1,8]` which is digest and add cender part of key
+- So the [solve.py](./solve.py) have the solution program.
+- The flag is got after run the `solve.py`
