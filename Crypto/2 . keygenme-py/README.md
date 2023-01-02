@@ -1,64 +1,61 @@
-# [Pico CTF](https://picoctf.org)
-## Writeups and Learnings
-
-## [About](https://picoctf.org/about.html)
-- The largest high school hacking competition now provides year-round cyber security education content for learners of all skill levels.< /br>
-
-- Participants learn to overcome sets of challenges from six domains of cybersecurity including general skills, cryptography, web exploitation, forensics, etc. The challenges are all set up with the intent of being hacked, making it an excellent, legal way to get hands-on experience. 
-
-## Categories :
-- Web Exploitation
-- Cyptography
-- Reverse Engineering
-- Forensics
-- Binary Exploitaions 
-- General Skills
-
-<center><img src="https://user-images.githubusercontent.com/76644058/200155642-d4f67368-0b9d-4a4e-8926-7884d4b118d5.png" width="300" /></center>
-
----
-
-## Requirements :
-- Operating Systems like [Kali linux , Parrot OS , etc ...]
-- Normal performance laptop like (Ram : 4GB , Storage : 50GB , )
-
-## Knowledge Need and Improved :
-- Cyptography
-- Web Technologies
-- Networks
-- Binary Exploitaions 
-- Reverse Engneering
-- Stegnography
-- OSINT
-- Linux
-
-> **[CTF Knowledge](https://github.com/Sriraj151/CTF-Practice-and-Training)**
-
-
-# crackme-py
+# keygenme-py
 
 ## Description
+- [keygenme-trial.py](./keygenme-trial.py)
+- Author: syreal
+- Tags  : picoCTF2021 , Cryptography
+- Source: [keygenme-trial.py](./keygenme-trial.py)
 
-[crackme.py](./crackme.py)
-
-## Hints
-
-(None)
-
-## Approach
-
-When looking at the contents of the Python file, there are a few things to note:
-
-```python
-# Hiding this really important number in an obscure piece of code is brilliant!
-# AND it's encrypted!
-# We want our biggest client to know his information is safe with us.
-bezos_cc_secret = "A:4@r%uL`M-^M0c0AbcM-MFE055a4ce`eN"
+<ins>Approach</ins> :
+- The python have a details of decryption.
+- The user name trial is given in the pgm .
+```text
+username_trial = "GOUGH"
+bUsername_trial = b"GOUGH"
 ```
+- After the few lines have the template of key
+```text
+key_full_template_trial = key_part_static1_trial + key_part_dynamic1_trial + key_part_static2_trial
+```
+- star ,  intro_trial() ,... , enter_license() are not needed.
+- In `check_key(key, username_trial)` the check function have details of key
+```text
+        if key[i] != hashlib.sha256(username_trial).hexdigest()[4]:
+            return False
+        else:
+            i += 1
 
-This can be decrypted using the `decode_secret` method BUT the method is never called.
-I replaced the call for `choose_greatest()` on line 34 for `decode_secret(bezos_cc_secret)` and ran it.
+        if key[i] != hashlib.sha256(username_trial).hexdigest()[5]:
+            return False
+        else:
+            i += 1
 
-## Flag
+        if key[i] != hashlib.sha256(username_trial).hexdigest()[3]:
+            return False
+        else:
+            i += 1
 
-picoCTF{1|\/|_4_p34|\|ut_dd2c4616}
+        if key[i] != hashlib.sha256(username_trial).hexdigest()[6]:
+            return False
+        else:
+            i += 1
+
+        if key[i] != hashlib.sha256(username_trial).hexdigest()[2]:
+            return False
+        else:
+            i += 1
+
+        if key[i] != hashlib.sha256(username_trial).hexdigest()[7]:
+            return False
+        else:
+            i += 1
+
+        if key[i] != hashlib.sha256(username_trial).hexdigest()[1]:
+            return False
+        else:
+            i += 1
+
+        if key[i] != hashlib.sha256(username_trial).hexdigest()[8]:
+            return False
+```
+-The hexdigest in order of `[4,5,3,6,2,7,1,8]` which is digest and add cender part of key
