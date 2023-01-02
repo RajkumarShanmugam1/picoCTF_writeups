@@ -6,11 +6,7 @@ key_part_dynamic1_trial = ""
 key_part_static2_trial = "}"
 #key_full_template_trial = key_part_static1_trial + key_part_dynamic1_trial + key_part_static2_trial
 
-username_trial = b"TOUGH"
-
-# where our input begins:
-offset = 23
-
+username_trial = b"XXX" # <YourNameInCaps>
 # positions in username_trial
 positions = [4,5,3,6,2,7,1,8]
 
