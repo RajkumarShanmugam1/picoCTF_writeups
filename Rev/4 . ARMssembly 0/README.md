@@ -49,4 +49,4 @@ bls .L2
 
 - Under the remaining functions with your self.
 - In the question `182476535` and `3742084308` arguments are denote as `w0` and `w1`.
-- So we change the decimal value to Hexadecimal value of `w0`
+- So we change the decimal value to Hexadecimal value of `w0` using [converter](https://www.rapidtables.com/convert/number/decimal-to-hex.html)
