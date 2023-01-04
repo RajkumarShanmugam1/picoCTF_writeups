@@ -5,8 +5,6 @@
 
 <img align="center" src="https://user-images.githubusercontent.com/76644058/200155642-d4f67368-0b9d-4a4e-8926-7884d4b118d5.png" width="300"  />
 
------
-
 ## Requirements :
 - Operating Systems like [Kali linux , Parrot OS , etc ...]
 - Normal performance laptop like (Ram : 4GB , Storage : 50GB , )
