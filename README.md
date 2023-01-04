@@ -25,6 +25,7 @@
 
 <details>
 <summary>General Skills</summary>
+
 | Question                                                                        | Points |
 |---------------------------------------------------------------------------------|--------|
 | [Obedient Cat](./General_Skill/01.Obedient%20Cat)                               | 5      |
@@ -42,6 +43,7 @@
 
 <details>
 <summary>Cryptography</summary>
+
 | Question                                                                        | Points |
 |---------------------------------------------------------------------------------|--------|
 | [Mod 26](./Crypto/1%20.%20Mod%2026/README.md)                                   | 10     |
@@ -50,6 +52,7 @@
 
 <details>
 <summary>Web Exploitation</summary>
+
 | Question                                                                 | Points |
 |--------------------------------------------------------------------------|--------|
 | [GET aHEAD](./Web/1%20.%20GET%20aHEAD)                                   | 20     |
@@ -64,6 +67,7 @@
 
 <details>
 <summary>Forensics</summary>
+
 | Question                                                                       | Points |
 |--------------------------------------------------------------------------------|--------|
 | [information](./Forensic/01.Information)                                       | 10     |
@@ -78,6 +82,7 @@
 
 <details>
 <summary>Reverse Engineering</summary>
+
 | Question                                                 | Points |
 |----------------------------------------------------------|--------|
 | [Transformation](./Rev/1%20.%20Transformation/README.md) | 20     |
@@ -89,6 +94,7 @@
 
 <details>
 <summary>Binary Exploitation</summary>
+
 | Question | Points |
 |----------|--------|
 
