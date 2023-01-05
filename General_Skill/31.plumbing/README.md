@@ -9,7 +9,7 @@
 <ins>Approach</ins> :
 - First run the command.
 	```sh
-	jupiter.challenges.picoctf.org 4427
+	nc jupiter.challenges.picoctf.org 4427
 	```
 - Which return lot of lines.i can not find flag here
 - So i save the the output of execution into a text file
@@ -19,3 +19,5 @@
 	nc jupiter.challenges.picoctf.org 4427 >> a.txt
 	cat a.txt | grep pico
 	```
+- Final flag find in the text file.
+![image](https://user-images.githubusercontent.com/76644058/210718850-e8b4e890-7ab5-4214-b1af-f45ff610de15.png)
