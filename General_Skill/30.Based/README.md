@@ -14,3 +14,5 @@
 - First convert the binary to ascii word [converter](https://www.rapidtables.com/convert/number/binary-to-ascii.html)
 - Next convert the octal to ascii word [converter](https://onlineasciitools.com/convert-octal-to-ascii).
 - Next convert the hex to ascii word [converder](https://www.rapidtables.com/convert/number/hex-to-ascii.html).
+
+![image](https://user-images.githubusercontent.com/76644058/210716695-0d84e02c-e588-4816-b720-c9edfee21e5d.png)
