@@ -6,12 +6,12 @@
 - Tags  : picoCTF2021 , General skills
 - Source: [song](./lyrics.txt)
 
-```diff
-- > The Rockstar language has changed since this problem was released! Use this Wayback Machine URL to use an older version of Rockstar, [here](https://web.archive.org/web/20190522020843/https://codewithrockstar.com/online).
-```
+
+>  The Rockstar language has changed since this problem was released! Use this Wayback Machine URL to use an older version of Rockstar, 
+>  [here](https://web.archive.org/web/20190522020843/https://codewithrockstar.com/online).
+
 <ins>Approach</ins> :
 - First open the RockStar Compiler
-
 - This time the program requires some input. We can simply remove these input checks to get to the flag.
 - Remove these lines:
 	```text
