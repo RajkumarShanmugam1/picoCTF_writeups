@@ -10,7 +10,7 @@
 - Enter the command `nc jupiter.challenges.picoctf.org 9745` in terminal
 - The reference of program is present in [source](./source.c)
 - The Outputs of Teminal Command:
-	```text
+	```
 	Welcome to the flag exchange
 	We sell flags
 		1. Check Account Balance
@@ -54,3 +54,5 @@
   ```
 - Which changes the account balance.
 - Then buy the flag
+
+![image](https://user-images.githubusercontent.com/76644058/210742057-1d6c0f6f-25e4-4bfa-97bd-28a055be0001.png)
