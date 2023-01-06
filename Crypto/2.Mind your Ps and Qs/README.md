@@ -9,11 +9,11 @@
 <ins>RSA Algorithm</ins> :
 - RSA Algorithm:
 	- Values :
-		> Given or take the values `p , q` - Two Prime numbers , `m` - Message
-		> i  . Find the value of `n = p * q`
-		> ii . Find the value of `phi = (p-1)*(q-1)`
-		> iii. Find the value of `e` from  `gcd (e,phi) =1` [private key]
-		> iv . Find the value of `d = de mod φ (n)` [Public key] 
+		> Given or take the values `p , q` - Two Prime numbers , `m` - Message  
+		> i  . Find the value of `n = p * q`  
+		> ii . Find the value of `phi = (p-1)*(q-1)`  
+		> iii. Find the value of `e` from  `gcd (e,phi) =1` [private key]  
+		> iv . Find the value of `d = de mod φ (n)` [Public key]   
 	- Encryption:
 		> c = (m^e) mod n
 	- Decryption:
@@ -24,6 +24,7 @@
 	n: 831416828080417866340504968188990032810316193533653516022175784399720141076262857
 	e: 65537
 	```
+![image](https://user-images.githubusercontent.com/76644058/210958753-484077ec-e71a-455d-bfe9-0e8aa291c079.png)
 
 <ins>Approach</ins>
 - Only decrypt the message from the given data.
