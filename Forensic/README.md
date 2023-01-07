@@ -1,17 +1,37 @@
-# Pico CTF
-## Writeups and Learnings
+# Trivial Flag Transfer Protocol
 
-> Capture the Flag (CTF) in computer security is an exercise in which "flags" are secretly hidden in purposefully-vulnerable programs or websites. It can either be for competitive or educational purposes.
+## Description
+- Figure out how they moved the flag.
+- Author: Danny
+- Tags  : picoCTF2021 , Forensics
+- Source:  [tftp.pcapng](./tftp.pcapng)
 
-## Requirements :
-- Operating Systems like [Kali linux , Parrot OS , etc ...]
-- Normal performance laptop like (Ram : 4GB , Storage : 50GB , )
-
-## Knowledge Need and Improved :
-- Cypto Graphy
-- Web Technologies
-- Networks
-- Stegnography
-- OSINT
-
-# picoCTF_writeups
+<ins>approach</ins>
+- The source file is the pcapng file .That is network capturing file.
+- Open the the source file in the [wireshark-tool](www.wireshark.org).
+- The source file have log og lot of file exchange using TFTP
+- So Export thus object files using `File > Export Object > TFTP` and click saveall open in your particular folder.
+- First explore the `instruction.txt` which have the some encrypted text.
+- Content of instruction.txt 
+  > GSGCQBRFAGRAPELCGB HEGENSSVPFBJRZHFGQVFTHVFRBHESYNTGENAFSRE.SVTHERBHGNJNLGBUVQRGURSYNTNAQVJVYYPURPXONPXSBEGURCYNA  
+- Now decrypt by subtitution method like ceasar cipher, ROT , etc... 
+- The [ROT13](https://rot13.com/) is decrypt this text.
+- The Result is :
+	> TFTPDOESNTENCRYPTOURTRAFFICSOWEMUSTDISGUISEOURFLAGTRANSFER.FIGUREOUTAWAYTOHIDETHEFLAGANDIWILLCHECKBACKFORTHEPLAN  
+- Please identified the sentences using separation. After Separate :
+	> TFTP DOESNT ENCRYPT OUR TRAFFIC SOWE MUST DISGUISE OUR FLAG TRANSFER.FIGURE OUT AWAY TO HIDE THE FLAG AND I WILL CHECKBACK FOR THE PLAN  
+- Second check the `plan` file. Which have another encrypted data.
+- Please follow last method to decrypt.
+	> VHFRQGURCEBTENZNAQUVQVGJVGU-QHRQVYVTRAPR.PURPXBHGGURCUBGBF
+- Decrypted data:
+	> I USED THE PROGRAM AND HID IT WITH- DUEDILIGENCE. CHECK OUT THE PHOTOS  
+- Then install the program.dep file 
+	```sh
+	sudo dpkg -i  program.dep
+	```
+- Which program have `steghide` tool for retrive the data from 3 photos.Which is concept known as stegnography.
+- The password for `DUEDILIGENCE` from plan file
+	```
+	sudo steghide extract -sf <filename>
+	```
+- Finally the flag is present in flag.txt file.
