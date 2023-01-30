@@ -7,12 +7,8 @@
 - Source: [VaultDoorTraining.java](./VaultDoorTraining.java)
 
 ## Approach
+![image](https://user-images.githubusercontent.com/76644058/215388892-db8104e4-e3bb-4c73-8f9d-e24f08f676bf.png)
 - Which is java based task.So we need a knowlege in a JAVA Programming
-- Compile and Run the given java program
-   ```sh
-   javac VaultDoorTraining.java
-   java VaultDoorTraining
-   ```
 - The Result asking one password
 	```ascii
 	Enter vault password: helo
@@ -22,6 +18,9 @@
 	at java.base/java.lang.String.substring(String.java:2707)
 	at VaultDoorTraining.main(VaultDoorTraining.java:9)
 	```
-- No need of Run the code
+- No need to Run the code . Ok isit the content of java file.
 - Because , The line number `24` Have password.
-- I got flag after enter the password. 
+- I got flag after enter the password.
+
+
+
