@@ -7,7 +7,7 @@
 - Source: [VaultDoorTraining.java](./VaultDoorTraining.java)
 
 ## Approach
-![image](https://user-images.githubusercontent.com/76644058/215388892-db8104e4-e3bb-4c73-8f9d-e24f08f676bf.png)
+![image](https://user-images.githubusercontent.com/76644058/215389376-44bd1857-7c76-404a-9317-2c5188fdd0d3.png)
 - Which is java based task.So we need a knowlege in a JAVA Programming
 - The Result asking one password
 	```ascii
