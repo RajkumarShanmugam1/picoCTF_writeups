@@ -12,7 +12,6 @@
 - The Result asking one password
 	```ascii
 	Enter vault password: helo
-	
 	Exception in thread "main" java.lang.StringIndexOutOfBoundsException: begin 8, end 3, length 4
 	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4604)
 	at java.base/java.lang.String.substring(String.java:2707)
