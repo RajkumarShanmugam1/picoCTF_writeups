@@ -8,4 +8,6 @@
 
 <ins>Approach</ins> :
 - Decryption through ROT13.
-- Using [link](https://rot13.com/)
+- ![image](https://github.com/RajkumarShanmugam1/picoCTF_writeups/assets/76644058/434ea074-df34-4338-8c4a-89e59b67faf0)
+- Manually decrypt using above chart.
+- Automate decrypt Using [link](https://rot13.com/)
