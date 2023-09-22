@@ -14,3 +14,4 @@ Additional details will be available after launching your challenge instance.
   ```
   ssh -p <PORT> picoplayer@saturn.picoctf.net
   ```
+  
