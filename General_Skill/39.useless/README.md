@@ -49,4 +49,4 @@
    man useless
    ```
 - Here flag is there.
-![image](https://github.com/RajkumarShanmugam1/picoCTF_writeups/assets/76644058/9cd7ea50-ad7c-4009-af5b-1b72903c95f1)
+  ![image](https://github.com/RajkumarShanmugam1/picoCTF_writeups/assets/76644058/9cd7ea50-ad7c-4009-af5b-1b72903c95f1)
