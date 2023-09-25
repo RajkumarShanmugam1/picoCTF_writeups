@@ -13,4 +13,13 @@ Additional details will be available after launching your challenge instance.
   ```
   ssh -p <PORT> picoplayer@saturn.picoctf.net
   ```
-- 
+- Here some command are supported by bash. Some command are not support.
+  ![image](https://github.com/RajkumarShanmugam1/picoCTF_writeups/assets/76644058/d624b856-acb4-4b62-8f05-1b4b0eadb740)
+- `compgen -c` is used to shown supported commands.
+
+   ![image](https://github.com/RajkumarShanmugam1/picoCTF_writeups/assets/76644058/7f763b34-6eb1-4077-949f-009facc3b668)
+- `cd <tab> <tab>`. cd + double TAB is used to shown the available . Which is easily traverce the directory.
+  ![image](https://github.com/RajkumarShanmugam1/picoCTF_writeups/assets/76644058/b1653da4-45f2-456f-a238-6a3bc0a46cbe)
+- Display the content file using `echo "$(<FILE-NAME)"`.
+- Explore all directory.
+  ![image](https://github.com/RajkumarShanmugam1/picoCTF_writeups/assets/76644058/09d39acb-54da-4c3c-92b2-f1e9bae03e5a)
