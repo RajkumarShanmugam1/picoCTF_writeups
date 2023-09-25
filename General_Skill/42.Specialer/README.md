@@ -22,4 +22,5 @@ Additional details will be available after launching your challenge instance.
   ![image](https://github.com/RajkumarShanmugam1/picoCTF_writeups/assets/76644058/b1653da4-45f2-456f-a238-6a3bc0a46cbe)
 - Display the content file using `echo "$(<FILE-NAME)"`.
 - Explore all directory.
+
   ![image](https://github.com/RajkumarShanmugam1/picoCTF_writeups/assets/76644058/09d39acb-54da-4c3c-92b2-f1e9bae03e5a)
